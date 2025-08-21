@@ -1,0 +1,392 @@
+/* 
+ * Bootstrap Theme Override - elTalaga
+ * Tema principal con fondo gris claro (#f8f9fa) y texto oscuro (#212529)
+ */
+
+:root {
+  --primary-bg: #f8f9fa;
+  --text-color: #212529;
+  --border-color: #dee2e6;
+  --accent-color: #007bff;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-gray: #e9ecef;
+  --dark-gray: #495057;
+}
+
+/* Estilos globales */
+body {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-color) !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+/* Contenedores y secciones */
+.container, .container-fluid, section, .card, .modal-content {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: var(--text-color) !important;
+  font-weight: 600 !important;
+}
+
+/* Enlaces */
+a {
+  color: var(--accent-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #0056b3 !important;
+  text-decoration: underline !important;
+}
+
+/* Botones */
+.btn {
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  padding: 0.375rem 0.75rem !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.btn-primary {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+.btn-success {
+  background-color: var(--success-color) !important;
+  border-color: var(--success-color) !important;
+  color: white !important;
+}
+
+.btn-danger {
+  background-color: var(--danger-color) !important;
+  border-color: var(--danger-color) !important;
+  color: white !important;
+}
+
+.btn-warning {
+  background-color: var(--warning-color) !important;
+  border-color: var(--warning-color) !important;
+  color: var(--text-color) !important;
+}
+
+.btn-outline-primary {
+  color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Tarjetas */
+.card {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+  margin-bottom: 1rem !important;
+}
+
+.card-header {
+  background-color: var(--light-gray) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 0.75rem 1.25rem !important;
+}
+
+.card-body {
+  padding: 1.25rem !important;
+}
+
+.card-footer {
+  background-color: var(--light-gray) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 0.75rem 1.25rem !important;
+}
+
+/* Tablas */
+.table {
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
+}
+
+.table thead th {
+  background-color: var(--light-gray) !important;
+  border-bottom: 2px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+  font-weight: 600 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02) !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Formularios */
+.form-control {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  color: var(--text-color) !important;
+  padding: 0.375rem 0.75rem !important;
+}
+
+.form-control:focus {
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.form-label {
+  color: var(--text-color) !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Alertas */
+.alert {
+  border-radius: 4px !important;
+  padding: 0.75rem 1.25rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Navegación */
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.navbar-brand {
+  color: var(--text-color) !important;
+  font-weight: 600 !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-color) !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--accent-color) !important;
+}
+
+/* Sidebar personalizada */
+.w3-sidebar {
+  background-color: white !important;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.w3-sidebar .w3-bar-item {
+  color: var(--text-color) !important;
+  padding: 12px 16px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.w3-sidebar .w3-bar-item:hover {
+  background-color: var(--light-gray) !important;
+  color: var(--accent-color) !important;
+}
+
+.w3-sidebar .action-btn {
+  background-color: var(--primary-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  color: var(--text-color) !important;
+  margin: 5px 10px !important;
+  padding: 10px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.w3-sidebar .action-btn:hover {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Modales */
+.modal-content {
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+.modal-header {
+  background-color: var(--light-gray) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 1rem !important;
+}
+
+.modal-body {
+  padding: 1.5rem !important;
+}
+
+.modal-footer {
+  background-color: var(--light-gray) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 1rem !important;
+}
+
+/* Paginación */
+.pagination .page-link {
+  color: var(--accent-color) !important;
+  background-color: var(--primary-bg) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Badges */
+.badge {
+  font-weight: 500 !important;
+  padding: 0.25em 0.6em !important;
+}
+
+/* Utilidades */
+.bg-light {
+  background-color: var(--primary-bg) !important;
+}
+
+.text-dark {
+  color: var(--text-color) !important;
+}
+
+.border {
+  border-color: var(--border-color) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-pointer:hover {
+  background-color: rgba(0, 123, 255, 0.1) !important;
+}
+
+/* Secciones específicas */
+.customerSection {
+  background-color: var(--primary-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+  padding: 20px !important;
+}
+
+.customerSection table {
+  background-color: white !important;
+}
+
+.customerSection table th {
+  background-color: var(--light-gray) !important;
+  color: var(--text-color) !important;
+}
+
+.customerSection table tbody tr {
+  background-color: white !important;
+  color: var(--text-color) !important;
+}
+
+.customerSection table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.02) !important;
+}
+
+/* Estilos para la factura */
+.invoice-container {
+  background-color: white !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+  padding: 20px !important;
+}
+
+.invoice-header, .invoice-footer {
+  background-color: var(--primary-bg) !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+}
+
+.invoice-table {
+  background-color: white !important;
+}
+
+.invoice-table th {
+  background-color: var(--light-gray) !important;
+  color: var(--text-color) !important;
+}
+
+.invoice-totals {
+  background-color: var(--primary-bg) !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+}
+
+/* Estilos para productos */
+.product-card {
+  background-color: white !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-5px) !important;
+}
+
+.product-info {
+  padding: 15px !important;
+}
+
+.product-name {
+  color: var(--text-color) !important;
+  font-weight: 600 !important;
+}
+
+.product-price {
+  color: var(--accent-color) !important;
+  font-weight: 700 !important;
+}
+
+/* Categorías */
+.category-btn {
+  background-color: white !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  color: var(--text-color) !important;
+  margin: 5px !important;
+  padding: 10px 15px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.category-btn:hover, .category-btn.active {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Estilos para el buscador */
+.search-input {
+  background-color: white !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 20px !important;
+  color: var(--text-color) !important;
+  padding: 10px 15px 10px 40px !important;
+}
+
+.search-input:focus {
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.search-icon {
+  color: var(--dark-gray) !important;
+}

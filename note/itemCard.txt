@@ -1,0 +1,47 @@
+CREATE TABLE `itemsCard` (
+  `itemID` int(30) AUTO_INCREMENT PRIMARY KEY,
+  `itemName` varchar(30) NOT NULL,
+  `unitL` varchar(30) NOT NULL,
+  `fL2M` float UNSIGNED NOT NULL,
+  `unitM` varchar(30) NOT NULL,
+  `fM2S` float UNSIGNED NOT NULL,
+  `unitS` varchar(30) NOT NULL,
+  `mainGroup` varchar(30) NOT NULL,
+  `subGroup` varchar(30) NOT NULL,
+  `stok` float UNSIGNED NOT NULL,
+  `profit` float UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATEKEY;
+
+
+تم انشاء قاعدة البيانات هذه اريد عرض هذه الاصناف مع امكانية الاضافه و التعديل والحذف مع مراعات التنسيق من صفحة css/style_salse.css و يمكنك انشاء صفحة تنسيق فى نفس الملف 
+ملحوظه للاتصال بقاعدة البانات استخدم 
+incloud('hmb/conn.php')
+و للاستعلام عن بيانات فى التعامل مع القاعدة البيانات 
+استخدم مثل هذا الكود 
+  function removeItemFromInvoice(id_invoice_items) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        getItemsInvoice("<?php echo $customerId; ?>", "<?php echo $invoiceType; ?>", "<?php echo $PriceDelivery; ?>");
+        // document.getElementById("allInvoice").innerHTML = xhr.responseText;
+        // alert(id_invoice_items);
+
+      }
+    }
+    xhr.open("GET", "sales/removeItemFromInvoice.php?id_invoice_items=" + id_invoice_items, true);
+    xhr.send();
+  }
+
+  مع وضع الملفات فى 
+  itemCard/
+  و اليك مثال لكود الصفحه removeItemFromInvoice.php
+  <?php
+include('../hmb/conn.php');
+$id_invoice_items = $_GET['id_invoice_items'];
+$sql = "DELETE FROM invoice_items WHERE id_invoice_items='$id_invoice_items'";
+if ($con->query($sql)) {
+  echo 'true';
+} else {
+  echo 'false';
+}
+?>

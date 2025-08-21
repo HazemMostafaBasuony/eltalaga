@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary: #cedae6;
+  --secondary: #3498db;
+  --accent: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #2c3e50;
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --gray: #e3f8fa;
+  --bg:linear-gradient(135deg, #606163, #e7d9d9);
+  --category-bg: rgba(52, 152, 219, 0.15);
+}
+
+body {
+  background:var(--bg);
+  color: var(--dark);
+  /* min-height: 80vh; */
+  padding: 5px;
+  margin: 0;
+}
+
+/* .container {
+  max-width: 100%;
+  background-color: #f3e4e21a;
+  margin: 0 auto;
+  padding: 0px, 20px;
+  display: flex;
+  gap: 20px;
+  height: calc(100vh - 40px);
+} */
+
+header {
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: rgba(133, 124, 124, 0.39);
+  /* rgba(0, 10, 10, .5);*/
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: var(--dark);
+  position: relative;
+
+}
+
+.logo {
+  display: flex;
+  align-items: right;
+
+  gap: 15px;
+}
+
+.logo i {
+  font-size: 2.5rem;
+  color: var(--success);
+}
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.993);
+  color: var(--dark);
+  align-content: right;
+  width: 200px;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.action-btn {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* for scane Camera */
+        #preview-container {
+            position: relative;
+            width: 100%;
+            max-width: 320px; /* العرض المطلوب */
+            height: 240px;    /* الارتفاع المطلوب */
+            background-color: #eee;
+            border: 2px solid black; /* إطار حول بث الفيديو */
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px auto; /* توسيط الحاوية أفقياً */
+            display: none; /* مخفي افتراضياً، يتم إظهاره عند بدء المسح */
+        }
+
+        #preview-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* يضمن أن الفيديو يملأ الحاوية بالكامل */
+            /* خيار 'mirror: false' في Instascan بيعالج اتجاه الصورة، 
+               فمش محتاجين CSS transform هنا إلا لو كانت لأغراض تصميمية خاصة */
+        }

@@ -1,0 +1,1248 @@
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":10,"unit":"كرتون","price":100,"total":1000}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 10
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 1000
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":125.4,"vat":15.4,"generalTotal":125.4,"paidAmount":125.4,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"142","itemName":"صحون بلاستيك رقم 3 مستطيل ","quantity":10,"unit":"كرتون","price":110,"total":1100}],"total":125.4}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 125.4
+            [vat] => 15.4
+            [generalTotal] => 125.4
+            [paidAmount] => 125.4
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 142
+                            [itemName] => صحون بلاستيك رقم 3 مستطيل 
+                            [quantity] => 10
+                            [unit] => كرتون
+                            [price] => 110
+                            [total] => 1100
+                        )
+
+                )
+
+            [total] => 125.4
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":3,"unit":"كرتون","price":100,"total":300}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":5,"unit":"كرتون","price":100,"total":500}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 5
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 500
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":5,"unit":"كرتون","price":100,"total":500}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 5
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 500
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":3,"unit":"كرتون","price":100,"total":300}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":5,"unit":"كرتون","price":100,"total":500}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 5
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 500
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":2,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":6,"unit":"كرتون","price":100,"total":600}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 2
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 6
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 600
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":2,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":114,"vat":14,"generalTotal":114,"paidAmount":114,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":1,"unit":"كرتون","price":100,"total":100}],"total":114}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 2
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 114
+            [vat] => 14
+            [generalTotal] => 114
+            [paidAmount] => 114
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 1
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 100
+                        )
+
+                )
+
+            [total] => 114
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":2,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":342,"vat":42,"generalTotal":342,"paidAmount":342,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"4","itemName":"3","quantity":null,"unit":"100.00","price":300,"total":null}],"total":342}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 2
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 342
+            [vat] => 42
+            [generalTotal] => 342
+            [paidAmount] => 342
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 4
+                            [itemName] => 3
+                            [quantity] => 
+                            [unit] => 100.00
+                            [price] => 300
+                            [total] => 
+                        )
+
+                )
+
+            [total] => 342
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":342,"vat":42,"generalTotal":342,"paidAmount":342,"notes":"امر تسليم خامات للمندوب  ","items":[{"itemID":"143","itemName":"صحون بلاستيك رقم 4 مستطيل ","quantity":3,"unit":"كرتون","price":100,"total":300}],"total":342}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 342
+            [vat] => 42
+            [generalTotal] => 342
+            [paidAmount] => 342
+            [notes] => امر تسليم خامات للمندوب  
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل 
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                )
+
+            [total] => 342
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":228,"vat":28,"generalTotal":228,"paidAmount":228,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":228}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 228
+            [vat] => 28
+            [generalTotal] => 228
+            [paidAmount] => 228
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 228
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":342,"vat":42,"generalTotal":342,"paidAmount":342,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل","quantity":3,"unit":"كرتون","price":100,"total":300}],"total":342}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 342
+            [vat] => 42
+            [generalTotal] => 342
+            [paidAmount] => 342
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                )
+
+            [total] => 342
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":3,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":414,"vat":54,"generalTotal":414,"paidAmount":414,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":11,"itemName":"باميه حياة 20كيس*400جرام","quantity":6,"unit":"كرتونة","price":3,"total":24},{"itemID":89,"itemName":"صحون المنيوم 1025 - 250","quantity":3,"unit":"كرتون","price":100,"total":300},{"itemID":4,"itemName":"ملوخيه كواليكو 20كيس*400جرام","quantity":3,"unit":"كرتونة","price":12,"total":36}],"total":414}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 3
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 414
+            [vat] => 54
+            [generalTotal] => 414
+            [paidAmount] => 414
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 11
+                            [itemName] => باميه حياة 20كيس*400جرام
+                            [quantity] => 6
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 24
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 89
+                            [itemName] => صحون المنيوم 1025 - 250
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                    [2] => Array
+                        (
+                            [itemID] => 4
+                            [itemName] => ملوخيه كواليكو 20كيس*400جرام
+                            [quantity] => 3
+                            [unit] => كرتونة
+                            [price] => 12
+                            [total] => 36
+                        )
+
+                )
+
+            [total] => 414
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":1,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":34.5,"vat":4.5,"generalTotal":34.5,"paidAmount":34.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":4,"itemName":"ملوخيه كواليكو 20كيس*400جرام","quantity":1,"unit":"كرتونة","price":30,"total":30}],"total":34.5}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 34.5
+            [vat] => 4.5
+            [generalTotal] => 34.5
+            [paidAmount] => 34.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 4
+                            [itemName] => ملوخيه كواليكو 20كيس*400جرام
+                            [quantity] => 1
+                            [unit] => كرتونة
+                            [price] => 30
+                            [total] => 30
+                        )
+
+                )
+
+            [total] => 34.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":1,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":253,"vat":33,"generalTotal":253,"paidAmount":253,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":11,"itemName":"باميه حياة 20كيس*400جرام","quantity":1,"unit":"كرتونة","price":20,"total":20},{"itemID":89,"itemName":"صحون المنيوم 1025 - 250","quantity":2,"unit":"كرتون","price":100,"total":200}],"total":253}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 253
+            [vat] => 33
+            [generalTotal] => 253
+            [paidAmount] => 253
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 11
+                            [itemName] => باميه حياة 20كيس*400جرام
+                            [quantity] => 1
+                            [unit] => كرتونة
+                            [price] => 20
+                            [total] => 20
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 89
+                            [itemName] => صحون المنيوم 1025 - 250
+                            [quantity] => 2
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 200
+                        )
+
+                )
+
+            [total] => 253
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":4,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":1874.5,"vat":244.5,"generalTotal":1874.5,"paidAmount":1874.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":89,"itemName":"صحون المنيوم 1025 - 250","quantity":10,"unit":"كرتون","price":100,"total":1000},{"itemID":142,"itemName":"صحون بلاستيك رقم 3 مستطيل","quantity":3,"unit":"كرتون","price":110,"total":330},{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل","quantity":3,"unit":"كرتون","price":100,"total":300}],"total":1874.5}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 4
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 1874.5
+            [vat] => 244.5
+            [generalTotal] => 1874.5
+            [paidAmount] => 1874.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 89
+                            [itemName] => صحون المنيوم 1025 - 250
+                            [quantity] => 10
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 1000
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 142
+                            [itemName] => صحون بلاستيك رقم 3 مستطيل
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 110
+                            [total] => 330
+                        )
+
+                    [2] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 300
+                        )
+
+                )
+
+            [total] => 1874.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":1,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":17.25,"vat":2.25,"generalTotal":17.25,"paidAmount":17.25,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":5,"unit":"كرتونة","price":3,"total":15}],"total":17.25}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 17.25
+            [vat] => 2.25
+            [generalTotal] => 17.25
+            [paidAmount] => 17.25
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 5
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 15
+                        )
+
+                )
+
+            [total] => 17.25
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":1,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":287.5,"vat":37.5,"generalTotal":287.5,"paidAmount":287.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":101,"itemName":"أكياس نفايات 50 جالون","quantity":5,"unit":"باله","price":50,"total":250}],"total":287.5}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 287.5
+            [vat] => 37.5
+            [generalTotal] => 287.5
+            [paidAmount] => 287.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 101
+                            [itemName] => أكياس نفايات 50 جالون
+                            [quantity] => 5
+                            [unit] => باله
+                            [price] => 50
+                            [total] => 250
+                        )
+
+                )
+
+            [total] => 287.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"<br />\n<b>Warning</b>:  Undefined array key ","toID":"1","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":287.5,"vat":37.5,"generalTotal":287.5,"paidAmount":287.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","quantity":25,"unit":"كرتونة","price":10,"total":250}],"total":287.5}
+    [decoded_data] => Array
+        (
+            [fromID] => <br />
+<b>Warning</b>:  Undefined array key 
+            [toID] => 1
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 287.5
+            [vat] => 37.5
+            [generalTotal] => 287.5
+            [paidAmount] => 287.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [quantity] => 25
+                            [unit] => كرتونة
+                            [price] => 10
+                            [total] => 250
+                        )
+
+                )
+
+            [total] => 287.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"<br />\n<b>Warning</b>:  Undefined array key ","toID":"1","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":126.5,"vat":16.5,"generalTotal":126.5,"paidAmount":126.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":5,"unit":"حبه","price":10,"total":50},{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":10,"unit":"كرتونة","price":6,"total":60}],"total":126.5}
+    [decoded_data] => Array
+        (
+            [fromID] => <br />
+<b>Warning</b>:  Undefined array key 
+            [toID] => 1
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 126.5
+            [vat] => 16.5
+            [generalTotal] => 126.5
+            [paidAmount] => 126.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 5
+                            [unit] => حبه
+                            [price] => 10
+                            [total] => 50
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 10
+                            [unit] => كرتونة
+                            [price] => 6
+                            [total] => 60
+                        )
+
+                )
+
+            [total] => 126.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"<br />\n<b>Warning</b>:  Undefined array key ","toID":"1","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":57.5,"vat":7.5,"generalTotal":57.5,"paidAmount":57.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":10,"unit":"كرتونة","price":5,"total":50}],"total":57.5,"remainnigAmount":57.5}
+    [decoded_data] => Array
+        (
+            [fromID] => <br />
+<b>Warning</b>:  Undefined array key 
+            [toID] => 1
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 57.5
+            [vat] => 7.5
+            [generalTotal] => 57.5
+            [paidAmount] => 57.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 10
+                            [unit] => كرتونة
+                            [price] => 5
+                            [total] => 50
+                        )
+
+                )
+
+            [total] => 57.5
+            [remainnigAmount] => 57.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"<br />\n<b>Warning</b>:  Undefined array key ","toID":"2","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":4843.8,"vat":631.8,"generalTotal":4843.8,"paidAmount":4843.8,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","quantity":54,"unit":"كرتونة","price":78,"total":4212}],"total":4843.8,"remainnigAmount":4843.8}
+    [decoded_data] => Array
+        (
+            [fromID] => <br />
+<b>Warning</b>:  Undefined array key 
+            [toID] => 2
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 4843.8
+            [vat] => 631.8
+            [generalTotal] => 4843.8
+            [paidAmount] => 4843.8
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [quantity] => 54
+                            [unit] => كرتونة
+                            [price] => 78
+                            [total] => 4212
+                        )
+
+                )
+
+            [total] => 4843.8
+            [remainnigAmount] => 4843.8
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"2","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":3.45,"vat":0.45,"generalTotal":3.45,"paidAmount":3.45,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":3,"unit":"كرتونة","price":1,"total":3}],"total":3.45,"remainnigAmount":3.45}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 2
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 3.45
+            [vat] => 0.45
+            [generalTotal] => 3.45
+            [paidAmount] => 3.45
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 3
+                            [unit] => كرتونة
+                            [price] => 1
+                            [total] => 3
+                        )
+
+                )
+
+            [total] => 3.45
+            [remainnigAmount] => 3.45
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"2","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":4.6,"vat":0.6,"generalTotal":4.6,"paidAmount":4.6,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":2,"unit":"كرتونة","price":2,"total":4}],"total":4.6}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 2
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 4.6
+            [vat] => 0.6
+            [generalTotal] => 4.6
+            [paidAmount] => 4.6
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 2
+                            [unit] => كرتونة
+                            [price] => 2
+                            [total] => 4
+                        )
+
+                )
+
+            [total] => 4.6
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"4","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":9.2,"vat":1.2,"generalTotal":9.2,"paidAmount":9.2,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":2,"unit":"كرتونة","price":4,"total":8}],"total":9.2}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 4
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 9.2
+            [vat] => 1.2
+            [generalTotal] => 9.2
+            [paidAmount] => 9.2
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 2
+                            [unit] => كرتونة
+                            [price] => 4
+                            [total] => 8
+                        )
+
+                )
+
+            [total] => 9.2
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"4","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":920,"vat":120,"generalTotal":920,"paidAmount":920,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":10,"unit":"كرتونة","price":30,"total":300},{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":20,"unit":"كرتونة","price":25,"total":500}],"total":920}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 4
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 920
+            [vat] => 120
+            [generalTotal] => 920
+            [paidAmount] => 920
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 10
+                            [unit] => كرتونة
+                            [price] => 30
+                            [total] => 300
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 20
+                            [unit] => كرتونة
+                            [price] => 25
+                            [total] => 500
+                        )
+
+                )
+
+            [total] => 920
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"4","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":661.25,"vat":86.25,"generalTotal":661.25,"paidAmount":661.25,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":10,"unit":"كرتونة","price":20,"total":200},{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":15,"unit":"كرتونة","price":25,"total":375}],"total":661.25}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 4
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 661.25
+            [vat] => 86.25
+            [generalTotal] => 661.25
+            [paidAmount] => 661.25
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 10
+                            [unit] => كرتونة
+                            [price] => 20
+                            [total] => 200
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 15
+                            [unit] => كرتونة
+                            [price] => 25
+                            [total] => 375
+                        )
+
+                )
+
+            [total] => 661.25
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"fromID":"2","toID":"4","fromType":"user","toType":"salesmane","state":1,"action":"transfer","paymentMethod":"wait","discount":0,"totalDue":488.75,"vat":63.75,"generalTotal":488.75,"paidAmount":488.75,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","quantity":15,"unit":"كرتونة","price":25,"total":375},{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","quantity":5,"unit":"كرتونة","price":10,"total":50}],"total":488.75}
+    [decoded_data] => Array
+        (
+            [fromID] => 2
+            [toID] => 4
+            [fromType] => user
+            [toType] => salesmane
+            [state] => 1
+            [action] => transfer
+            [paymentMethod] => wait
+            [discount] => 0
+            [totalDue] => 488.75
+            [vat] => 63.75
+            [generalTotal] => 488.75
+            [paidAmount] => 488.75
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [quantity] => 15
+                            [unit] => كرتونة
+                            [price] => 25
+                            [total] => 375
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [quantity] => 5
+                            [unit] => كرتونة
+                            [price] => 10
+                            [total] => 50
+                        )
+
+                )
+
+            [total] => 488.75
+        )
+
+)

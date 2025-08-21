@@ -1,0 +1,126 @@
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":4,"state":4,"action":"out","paymentMethod":"cash","discount":0,"totalDue":48.53,"vat":6.33,"generalTotal":48.53,"paidAmount":48.53,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":143,"itemName":"صحون بلاستيك رقم 4 مستطيل","quantity":3,"unit":"كرتون","price":100,"total":33},{"itemID":142,"itemName":"صحون بلاستيك رقم 3 مستطيل","quantity":7,"unit":"ربطة 8","price":8,"total":9.2}],"total":48.53}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 4
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 48.53
+            [vat] => 6.33
+            [generalTotal] => 48.53
+            [paidAmount] => 48.53
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 143
+                            [itemName] => صحون بلاستيك رقم 4 مستطيل
+                            [quantity] => 3
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 33
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 142
+                            [itemName] => صحون بلاستيك رقم 3 مستطيل
+                            [quantity] => 7
+                            [unit] => ربطة 8
+                            [price] => 8
+                            [total] => 9.2
+                        )
+
+                )
+
+            [total] => 48.53
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":4,"state":1,"action":"out","paymentMethod":"wait","discount":3,"totalDue":115,"vat":15,"generalTotal":115,"paidAmount":115,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":89,"itemName":"صحون المنيوم 1025 - 250","quantity":1,"unit":"كرتون","price":100,"total":115}],"total":112}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 4
+            [state] => 1
+            [action] => out
+            [paymentMethod] => wait
+            [discount] => 3
+            [totalDue] => 115
+            [vat] => 15
+            [generalTotal] => 115
+            [paidAmount] => 115
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 89
+                            [itemName] => صحون المنيوم 1025 - 250
+                            [quantity] => 1
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 115
+                        )
+
+                )
+
+            [total] => 112
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"salesmaneID":4,"customerID":8,"state":1,"action":"out","paidDate":"2025-07-23T04:49:23.374Z","paymentMethod":"transfer","discount":3.5,"totalDue":747.5,"vat":97.5,"generalTotal":747.5,"paidAmount":"744.00","changeAmount":"0","dateRemainingAmount":"","notes":"فاتورة ضريبية من المندوب رقم  4  الى العميل رقم 8","items":[{"itemID":142,"itemName":"صحون بلاستيك رقم 3 مستطيل","quantity":5,"unit":"كرتون","price":110,"total":126.5},{"itemID":89,"itemName":"صحون المنيوم 1025 - 250","quantity":1,"unit":"كرتون","price":100,"total":115}],"total":744}
+    [decoded_data] => Array
+        (
+            [salesmaneID] => 4
+            [customerID] => 8
+            [state] => 1
+            [action] => out
+            [paidDate] => 2025-07-23T04:49:23.374Z
+            [paymentMethod] => transfer
+            [discount] => 3.5
+            [totalDue] => 747.5
+            [vat] => 97.5
+            [generalTotal] => 747.5
+            [paidAmount] => 744.00
+            [changeAmount] => 0
+            [dateRemainingAmount] => 
+            [notes] => فاتورة ضريبية من المندوب رقم  4  الى العميل رقم 8
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 142
+                            [itemName] => صحون بلاستيك رقم 3 مستطيل
+                            [quantity] => 5
+                            [unit] => كرتون
+                            [price] => 110
+                            [total] => 126.5
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 89
+                            [itemName] => صحون المنيوم 1025 - 250
+                            [quantity] => 1
+                            [unit] => كرتون
+                            [price] => 100
+                            [total] => 115
+                        )
+
+                )
+
+            [total] => 744
+        )
+
+)

@@ -1,0 +1,907 @@
+Received data:
+Array
+(
+    [raw_input] => {"customerID":1,"state":4,"action":"out","paymentMethod":"cash","totalDue":10.35,"vat":1.35,"generalTotal":10.35,"paidAmount":10.35,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":3,"unit":"كرتونة","price":3,"total":9,"discount":0}],"total":10.35}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [totalDue] => 10.35
+            [vat] => 1.35
+            [generalTotal] => 10.35
+            [paidAmount] => 10.35
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 3
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 9
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 10.35
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":1,"state":4,"action":"out","paymentMethod":"cash","totalDue":805,"vat":105,"generalTotal":805,"paidAmount":805,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":10,"unit":"كرتونة","price":70,"total":700,"discount":0}],"total":805}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [totalDue] => 805
+            [vat] => 105
+            [generalTotal] => 805
+            [paidAmount] => 805
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 700
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 805
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":1,"state":4,"action":"out","paymentMethod":"cash","totalDue":402.5,"vat":52.5,"generalTotal":402.5,"paidAmount":402.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":5,"unit":"كرتونة","price":70,"total":350,"discount":0}],"total":402.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [totalDue] => 402.5
+            [vat] => 52.5
+            [generalTotal] => 402.5
+            [paidAmount] => 402.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 350
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 402.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":1,"state":4,"action":"out","paymentMethod":"cash","totalDue":80.5,"vat":10.5,"generalTotal":80.5,"paidAmount":80.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":1,"unit":"كرتونة","price":70,"total":70,"discount":0}],"total":80.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [totalDue] => 80.5
+            [vat] => 10.5
+            [generalTotal] => 80.5
+            [paidAmount] => 80.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 1
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 70
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 80.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":1,"state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":161,"vat":21,"generalTotal":161,"paidAmount":161,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":2,"unit":"كرتونة","price":70,"total":140,"discount":0}],"total":161}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 161
+            [vat] => 21
+            [generalTotal] => 161
+            [paidAmount] => 161
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 140
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 161
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":805,"vat":105,"generalTotal":805,"paidAmount":805,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":10,"unit":"كرتونة","price":70,"total":700,"discount":0}],"total":805}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 805
+            [vat] => 105
+            [generalTotal] => 805
+            [paidAmount] => 805
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 700
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 805
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":161,"vat":21,"generalTotal":161,"paidAmount":161,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":2,"unit":"كرتونة","price":70,"total":140,"discount":0}],"total":161}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 161
+            [vat] => 21
+            [generalTotal] => 161
+            [paidAmount] => 161
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 140
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 161
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":402.5,"vat":52.5,"generalTotal":402.5,"paidAmount":402.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":5,"unit":"كرتونة","price":70,"total":350,"discount":0}],"total":402.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 402.5
+            [vat] => 52.5
+            [generalTotal] => 402.5
+            [paidAmount] => 402.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 350
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 402.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":2.3,"vat":0.3,"generalTotal":2.3,"paidAmount":2.3,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":2,"unit":"كرتونة","price":1,"total":2,"discount":0}],"total":2.3}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 2.3
+            [vat] => 0.3
+            [generalTotal] => 2.3
+            [paidAmount] => 2.3
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 1
+                            [total] => 2
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 2.3
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":4,"action":"out","paymentMethod":"cash","discount":"0","totalDue":17.25,"vat":2.25,"generalTotal":17.25,"paidAmount":17.25,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":5,"unit":"كرتونة","price":3,"total":15,"discount":0}],"total":17.25}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 4
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 17.25
+            [vat] => 2.25
+            [generalTotal] => 17.25
+            [paidAmount] => 17.25
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 15
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 17.25
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":6.9,"vat":0.9,"generalTotal":6.9,"paidAmount":6.9,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":2,"unit":"كرتونة","price":3,"total":6,"discount":0}],"total":6.9}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 6.9
+            [vat] => 0.9
+            [generalTotal] => 6.9
+            [paidAmount] => 6.9
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 6
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 6.9
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":6.9,"vat":0.9,"generalTotal":6.9,"paidAmount":6.9,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":2,"unit":"كرتونة","price":3,"total":6,"discount":0}],"total":6.9}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 6.9
+            [vat] => 0.9
+            [generalTotal] => 6.9
+            [paidAmount] => 6.9
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 3
+                            [total] => 6
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 6.9
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":2.3,"vat":0.3,"generalTotal":2.3,"paidAmount":2.3,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":1,"unit":"كرتونة","price":2,"total":2,"discount":0}],"total":2.3,"remainnigAmount":2.3}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 2.3
+            [vat] => 0.3
+            [generalTotal] => 2.3
+            [paidAmount] => 2.3
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 1
+                            [unit] => كرتونة
+                            [price] => 2
+                            [total] => 2
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 2.3
+            [remainnigAmount] => 2.3
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":161,"vat":21,"generalTotal":161,"paidAmount":161,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":2,"unit":"كرتونة","price":70,"total":140,"discount":0}],"total":161,"remainnigAmount":161}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 161
+            [vat] => 21
+            [generalTotal] => 161
+            [paidAmount] => 161
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 140
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 161
+            [remainnigAmount] => 161
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":1656,"vat":216,"generalTotal":1656,"paidAmount":1656,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":120,"unit":"كرتونة","price":12,"total":1440,"discount":0}],"total":1656,"remainingAmount":1656}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 1656
+            [vat] => 216
+            [generalTotal] => 1656
+            [paidAmount] => 1656
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 120
+                            [unit] => كرتونة
+                            [price] => 12
+                            [total] => 1440
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 1656
+            [remainingAmount] => 1656
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":57.5,"vat":7.5,"generalTotal":57.5,"paidAmount":57.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":3,"itemName":"ملوخيه حياه 20كيس*400جرام","count":5,"unit":"كرتونة","price":10,"total":50,"discount":0}],"total":57.5,"remainingAmount":57.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 57.5
+            [vat] => 7.5
+            [generalTotal] => 57.5
+            [paidAmount] => 57.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 3
+                            [itemName] => ملوخيه حياه 20كيس*400جرام
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 10
+                            [total] => 50
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 57.5
+            [remainingAmount] => 57.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":402.5,"vat":52.5,"generalTotal":402.5,"paidAmount":402.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":5,"unit":"كرتونة","price":70,"total":350,"discount":0}],"total":402.5,"remainingAmount":402.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 402.5
+            [vat] => 52.5
+            [generalTotal] => 402.5
+            [paidAmount] => 402.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 350
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 402.5
+            [remainingAmount] => 402.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":1207.5,"vat":157.5,"generalTotal":1207.5,"paidAmount":1207.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":15,"unit":"كرتونة","price":70,"total":1050,"discount":0}],"total":1207.5,"remainingAmount":1207.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 1207.5
+            [vat] => 157.5
+            [generalTotal] => 1207.5
+            [paidAmount] => 1207.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 15
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 1050
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 1207.5
+            [remainingAmount] => 1207.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":805,"vat":105,"generalTotal":805,"paidAmount":805,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":10,"unit":"كرتونة","price":70,"total":700,"discount":0}],"total":805,"remainingAmount":805}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 805
+            [vat] => 105
+            [generalTotal] => 805
+            [paidAmount] => 805
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 700
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 805
+            [remainingAmount] => 805
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":805,"vat":105,"generalTotal":805,"paidAmount":805,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":2,"itemName":"مفروم غنم السعوديه 20حبه*400جر","count":10,"unit":"كرتونة","price":70,"total":700,"discount":0}],"total":805,"remainingAmount":805}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 805
+            [vat] => 105
+            [generalTotal] => 805
+            [paidAmount] => 805
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 2
+                            [itemName] => مفروم غنم السعوديه 20حبه*400جر
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 70
+                            [total] => 700
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 805
+            [remainingAmount] => 805
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"5","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":57.5,"vat":7.5,"generalTotal":57.5,"paidAmount":57.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":6,"itemName":"استربس امريكانا حراق 10كيس*1ك","count":10,"unit":"كرتونة","price":5,"total":50,"discount":0}],"total":57.5,"remainingAmount":57.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 5
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 57.5
+            [vat] => 7.5
+            [generalTotal] => 57.5
+            [paidAmount] => 57.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 6
+                            [itemName] => استربس امريكانا حراق 10كيس*1ك
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 5
+                            [total] => 50
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 57.5
+            [remainingAmount] => 57.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"2","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":172.5,"vat":22.5,"generalTotal":172.5,"paidAmount":172.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":4,"itemName":"ملوخيه كواليكو 20كيس*400جرام","count":3,"unit":"كرتونة","price":50,"total":150,"discount":0}],"total":172.5,"remainingAmount":172.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 2
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 172.5
+            [vat] => 22.5
+            [generalTotal] => 172.5
+            [paidAmount] => 172.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 4
+                            [itemName] => ملوخيه كواليكو 20كيس*400جرام
+                            [count] => 3
+                            [unit] => كرتونة
+                            [price] => 50
+                            [total] => 150
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 172.5
+            [remainingAmount] => 172.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":287.5,"vat":37.5,"generalTotal":287.5,"paidAmount":287.5,"notes":"امر تسليم خامات للمندوب","items":[{"itemID":11,"itemName":"باميه حياة 20كيس*400جرام","count":5,"unit":"كرتونة","price":50,"total":250,"discount":0}],"total":287.5,"remainingAmount":287.5}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 287.5
+            [vat] => 37.5
+            [generalTotal] => 287.5
+            [paidAmount] => 287.5
+            [notes] => امر تسليم خامات للمندوب
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 11
+                            [itemName] => باميه حياة 20كيس*400جرام
+                            [count] => 5
+                            [unit] => كرتونة
+                            [price] => 50
+                            [total] => 250
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 287.5
+            [remainingAmount] => 287.5
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"3","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":759,"vat":99,"generalTotal":759,"paidAmount":759,"notes":"بيع من المتودع","items":[{"itemID":20,"itemName":"جبن شرايح فرسان اصفر 24كيس*10ح","count":10,"unit":"كرتونة","price":60,"total":600,"discount":0},{"itemID":1,"itemName":"مفروم دجاج الوطنيه 14حبه*400جر","count":1,"unit":"كرتونة","price":60,"total":60,"discount":0}],"total":759,"remainingAmount":759}
+    [decoded_data] => Array
+        (
+            [customerID] => 3
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 759
+            [vat] => 99
+            [generalTotal] => 759
+            [paidAmount] => 759
+            [notes] => بيع من المتودع
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 20
+                            [itemName] => جبن شرايح فرسان اصفر 24كيس*10ح
+                            [count] => 10
+                            [unit] => كرتونة
+                            [price] => 60
+                            [total] => 600
+                            [discount] => 0
+                        )
+
+                    [1] => Array
+                        (
+                            [itemID] => 1
+                            [itemName] => مفروم دجاج الوطنيه 14حبه*400جر
+                            [count] => 1
+                            [unit] => كرتونة
+                            [price] => 60
+                            [total] => 60
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 759
+            [remainingAmount] => 759
+        )
+
+)
+Received data:
+Array
+(
+    [raw_input] => {"customerID":"1","userID":"2","state":1,"action":"out","paymentMethod":"cash","discount":"0","totalDue":2.3,"vat":0.3,"generalTotal":2.3,"paidAmount":2.3,"notes":"بيع من المتودع","items":[{"itemID":20,"itemName":"جبن شرايح فرسان اصفر 24كيس*10ح","count":2,"unit":"كرتونة","price":1,"total":2,"discount":0}],"total":2.3,"remainingAmount":2.3}
+    [decoded_data] => Array
+        (
+            [customerID] => 1
+            [userID] => 2
+            [state] => 1
+            [action] => out
+            [paymentMethod] => cash
+            [discount] => 0
+            [totalDue] => 2.3
+            [vat] => 0.3
+            [generalTotal] => 2.3
+            [paidAmount] => 2.3
+            [notes] => بيع من المتودع
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [itemID] => 20
+                            [itemName] => جبن شرايح فرسان اصفر 24كيس*10ح
+                            [count] => 2
+                            [unit] => كرتونة
+                            [price] => 1
+                            [total] => 2
+                            [discount] => 0
+                        )
+
+                )
+
+            [total] => 2.3
+            [remainingAmount] => 2.3
+        )
+
+)

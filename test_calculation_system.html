@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار نظام الحسابات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>اختبار نظام الحسابات المحسن</h2>
+        
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5>اختبار الحسابات</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>العدد:</label>
+                        <input id="countItem" type="number" class="form-control" placeholder="أدخل العدد">
+                    </div>
+                    <div class="col-md-4">
+                        <label>السعر:</label>
+                        <input id="priceItem" type="number" class="form-control" placeholder="أدخل السعر">
+                    </div>
+                    <div class="col-md-4">
+                        <label>الإجمالي النهائي:</label>
+                        <input id="totalDisplay" type="number" class="form-control bg-warning" placeholder="أدخل الإجمالي">
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <label>الإجمالي قبل الضريبة:</label>
+                        <input id="priceXcount" type="number" class="form-control" readonly>
+                    </div>
+                    <div class="col-md-4">
+                        <label>السعر بعد الضريبة:</label>
+                        <input id="price_vat" type="number" class="form-control" readonly>
+                    </div>
+                    <div class="col-md-4">
+                        <label>الإجمالي بعد الضريبة:</label>
+                        <input id="price_vatXcount" type="number" class="form-control" readonly>
+                    </div>
+                </div>
+                
+                <div class="mt-3">
+                    <button onclick="clearAllCalculations()" class="btn btn-secondary">مسح جميع الحقول</button>
+                    <button onclick="initializeCalculationSystem()" class="btn btn-info">إعادة تهيئة النظام</button>
+                    <button onclick="console.log(getCalculationSystemStatus())" class="btn btn-warning">فحص حالة النظام</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // نسخ النظام المحسن من payFromSupplier.php
+        
+        // نظام إدارة الأحداث لمنع التضارب
+        let isCalculating = false;
+        let calculationMode = 'normal'; // normal, reverse
+        
+        // دالة تهيئة النظام
+        function initializeCalculationSystem() {
+            isCalculating = false;
+            calculationMode = 'normal';
+            manageEventListeners('remove');
+            manageEventListeners('add');
+            console.log('نظام الحسابات تم تهيئته بنجاح');
+        }
+        
+        // دالة فحص حالة النظام
+        function getCalculationSystemStatus() {
+            return {
+                isCalculating: isCalculating,
+                calculationMode: calculationMode,
+                timestamp: new Date().toLocaleString()
+            };
+        }
+        
+        // دالة مساعدة لإدارة Event Listeners
+        function manageEventListeners(action, excludeElement = null) {
+            try {
+                const elements = {
+                    countItem: document.getElementById('countItem'),
+                    priceItem: document.getElementById('priceItem'),
+                    totalDisplay: document.getElementById('totalDisplay')
+                };
+                
+                Object.keys(elements).forEach(key => {
+                    if (excludeElement && key === excludeElement) return;
+                    
+                    const element = elements[key];
+                    if (element) {
+                        if (action === 'remove') {
+                            element.removeEventListener('input', calculateTotals);
+                            element.removeEventListener('input', calculateReverse);
+                        } else if (action === 'add') {
+                            if (key === 'totalDisplay') {
+                                element.addEventListener('input', calculateReverse);
+                            } else {
+                                element.addEventListener('input', calculateTotals);
+                            }
+                        }
+                    }
+                });
+                
+                console.log(action === 'add' ? 'تم تفعيل Event Listeners' : 'تم إزالة Event Listeners');
+                
+            } catch (error) {
+                console.error('خطأ في إدارة Event Listeners:', error);
+            }
+        }
+        
+        // دالة تحديث القيم بدون إثارة الأحداث
+        function updateValueSafely(elementId, value) {
+            try {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    element.value = value;
+                    return true;
+                }
+                return false;
+            } catch (error) {
+                console.error(`خطأ في تحديث العنصر ${elementId}:`, error);
+                return false;
+            }
+        }
+        
+        // دالة التحقق من صحة البيانات
+        function validateNumericInput(value) {
+            const num = parseFloat(value);
+            return !isNaN(num) && isFinite(num) && num >= 0;
+        }
+
+        function calculateTotals() {
+            if (isCalculating || calculationMode === 'reverse') return;
+            
+            isCalculating = true;
+            calculationMode = 'normal';
+            manageEventListeners('remove');
+            
+            try {
+                const countValue = document.getElementById('countItem').value;
+                const priceValue = document.getElementById('priceItem').value;
+                
+                const count = validateNumericInput(countValue) ? parseFloat(countValue) : 0;
+                const price = validateNumericInput(priceValue) ? parseFloat(priceValue) : 0;
+                const vatRate = 0.15;
+
+                const totalBeforeVat = count * price;
+                const priceWithVat = price * (1 + vatRate);
+                const totalWithVat = totalBeforeVat * (1 + vatRate);
+
+                updateValueSafely('priceXcount', totalBeforeVat.toFixed(2));
+                updateValueSafely('price_vat', priceWithVat.toFixed(2));
+                updateValueSafely('price_vatXcount', totalWithVat.toFixed(2));
+                updateValueSafely('totalDisplay', totalWithVat.toFixed(2));
+                
+            } catch (error) {
+                console.error('خطأ في حساب الإجماليات:', error);
+            } finally {
+                setTimeout(() => {
+                    manageEventListeners('add');
+                    isCalculating = false;
+                    calculationMode = 'normal';
+                }, 100);
+            }
+        }
+
+        function calculateReverse() {
+            if (isCalculating || calculationMode === 'normal') return;
+            
+            isCalculating = true;
+            calculationMode = 'reverse';
+            manageEventListeners('remove');
+            
+            try {
+                const totalValue = document.getElementById('totalDisplay').value;
+                const countValue = document.getElementById('countItem').value;
+                const priceValue = document.getElementById('priceItem').value;
+                
+                const totalWithVat = validateNumericInput(totalValue) ? parseFloat(totalValue) : 0;
+                const count = validateNumericInput(countValue) ? parseFloat(countValue) : 0;
+                const price = validateNumericInput(priceValue) ? parseFloat(priceValue) : 0;
+                const vatRate = 0.15;
+
+                if (totalWithVat <= 0) {
+                    updateValueSafely('priceXcount', '');
+                    updateValueSafely('price_vat', '');
+                    updateValueSafely('price_vatXcount', '');
+                    updateValueSafely('priceItem', '');
+                    updateValueSafely('countItem', '');
+                    return;
+                }
+
+                const totalBeforeVat = totalWithVat / (1 + vatRate);
+                updateValueSafely('priceXcount', totalBeforeVat.toFixed(2));
+                updateValueSafely('price_vatXcount', totalWithVat.toFixed(2));
+
+                if (count > 0 && price === 0) {
+                    const calculatedPrice = totalBeforeVat / count;
+                    const priceWithVat = calculatedPrice * (1 + vatRate);
+                    updateValueSafely('priceItem', calculatedPrice.toFixed(2));
+                    updateValueSafely('price_vat', priceWithVat.toFixed(2));
+                } else if (price > 0 && count === 0) {
+                    const calculatedCount = totalBeforeVat / price;
+                    const priceWithVat = price * (1 + vatRate);
+                    updateValueSafely('countItem', calculatedCount.toFixed(0));
+                    updateValueSafely('price_vat', priceWithVat.toFixed(2));
+                } else if (count > 0 && price > 0) {
+                    const priceWithVat = price * (1 + vatRate);
+                    updateValueSafely('price_vat', priceWithVat.toFixed(2));
+                }
+                
+            } catch (error) {
+                console.error('خطأ في الحساب العكسي:', error);
+            } finally {
+                setTimeout(() => {
+                    manageEventListeners('add');
+                    isCalculating = false;
+                    calculationMode = 'normal';
+                }, 100);
+            }
+        }
+
+        function clearAllCalculations() {
+            isCalculating = true;
+            manageEventListeners('remove');
+            
+            try {
+                updateValueSafely('countItem', '');
+                updateValueSafely('priceItem', '');
+                updateValueSafely('priceXcount', '');
+                updateValueSafely('price_vat', '');
+                updateValueSafely('price_vatXcount', '');
+                updateValueSafely('totalDisplay', '');
+                
+            } catch (error) {
+                console.error('خطأ في مسح الحسابات:', error);
+            } finally {
+                setTimeout(() => {
+                    manageEventListeners('add');
+                    isCalculating = false;
+                    calculationMode = 'normal';
+                    document.getElementById('countItem').focus();
+                }, 100);
+            }
+        }
+
+        // تهيئة النظام عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeCalculationSystem();
+        });
+    </script>
+</body>
+</html>

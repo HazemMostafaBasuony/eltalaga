@@ -1,0 +1,206 @@
+.customerSection{
+    background-color: #eaebec;
+    display: block;
+    /* direction: rtl; */
+    text-align: center;
+    width: 100%;
+    max-height: fit-content;
+    margin-top: 50px;
+    margin-left: auto;
+    /* إطار جميل مع ظل */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* تحسين الخلفية */
+    background: linear-gradient(135deg, #fdfdfd 0%, #bdbbc2 100%);
+    /* جعل الـ section يبدأ من أعلى الصفحة */
+    position: absolute;
+     
+    
+}
+
+/* تنسيق الجدول */
+.customerSection table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: rgb(233, 234, 236);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* تأثير الظهور التدريجي */
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+/* تأثير الظهور التدريجي */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* تأثير الظهور للـ section */
+.customerSection {
+    animation: slideInRight 0.6s ease-in-out;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* تنسيق رأس الجدول */
+.customerSection table header tr {
+    background: linear-gradient(135deg, #e9e9f0 0%, #223523 100%);
+    color: rgb(1, 41, 24);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.customerSection table th {
+    padding: 15px 12px;
+    border-bottom: 2px solid #250404;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgb(1, 41, 24);;
+}
+
+/* تنسيق صفوف الجدول */
+.customerSection table tbody tr {
+    background-color: #30a313;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-bottom: 1px solid #141313;
+}
+
+/* تأثير الماوس على الصفوف */
+.customerSection table tbody tr:hover {
+    background: linear-gradient(135deg, #07538641 0%, #099b4179 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* تأثير توهج خفيف */
+    border-left: 4px solid #2196F3;
+    /* تأثير النقر */
+    user-select: none;
+}
+
+/* تأثير عند الضغط */
+.customerSection table tbody tr:hover:active {
+    transform: translateY(0px) scale(0.98);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* تنسيق الصف المختار */
+.customerSection table tbody tr.selected {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: rgb(63, 4, 4);
+    font-weight: bold;
+    border-left: 4px solid #2e7d32;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.3);
+}
+
+.customerSection table tbody tr.selected:hover {
+    background: linear-gradient(135deg, #45a049 0%, #4CAF50 100%);
+    color: rgb(1, 41, 24);
+}
+
+/* تنسيق الخلايا */
+.customerSection table td {
+    padding: 12px 15px;
+    text-align: center;
+    color: #520303ec;
+    font-size: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.customerSection table td:last-child {
+    border-right: none;
+}
+
+/* تنسيق صفوف متبادلة */
+.customerSection table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.customerSection table tbody tr:nth-child(even):hover {
+    background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);
+}
+
+/* تنسيق العنوان */
+.customerSection h4 {
+    color: rgb(1, 41, 24);
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* خط تحت العنوان */
+.customerSection h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    border-radius: 2px;
+}
+
+/* تنسيق مربع البحث */
+.customerSection .w3-input-group {
+    margin-bottom: 15px;
+}
+
+.customerSection .w3-input-group input {
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 30px);
+}
+
+.customerSection .w3-input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+/* تحسين الرسوم المتحركة للجدول */
+.customerSection table tbody tr:active {
+    transform: scale(0.98);
+}
+
+/* تنسيق خاص للأجهزة المحمولة */
+@media (max-width: 768px) {
+    .customerSection table {
+        font-size: 12px;
+    }
+    
+    .customerSection table th,
+    .customerSection table td {
+        padding: 8px 6px;
+    }
+    
+    .customerSection {
+        padding: 15px;
+        margin-top: 10px;
+    }
+}
