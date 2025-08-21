@@ -42,14 +42,14 @@ $invoices = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="container">
     <div class="card mt-3">
         <div class="header-card p-3">
-            <h4>قائمة الفواتير</h4>
+            <h4>قائمة الفواتير</h4>
         </div>
         <div class="card-body">
             <table class="table table-striped table-bordered text-center">
                 <thead>
                     <tr>
                         <th>رقم الفاتورة</th>
-                        <th>اسم المورد</th>
+                        <th>اسم العميل</th>
                         <th>المبلغ المدفوع</th>
                         <th>تاريخ الدفع</th>
                         <th>ملاحظات</th>
@@ -57,11 +57,11 @@ $invoices = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </thead>
                 <tbody>
                     <?php foreach($invoices as $inv): ?>
-                    <tr>
+                    <tr data-id="<?= $inv['invoiceID'] ?>">
                         <td><?= $inv['invoiceID'] ?></td>
                         <td><?= htmlspecialchars($inv['customerName']) ?></td>
                         <td><?= number_format($inv['generalTotal'], 2) ?></td>
-                        <td><?= date_format(new DateTime($inv['paidDate']), 'Y-m-d') ?></td>
+                        <td><?= $inv['paidDate'] ? date('Y-m-d', strtotime($inv['paidDate'])) : '-' ?></td>
                         <td><?= htmlspecialchars($inv['notes']) ?></td>
                     </tr>
                     <?php endforeach; ?>
@@ -90,5 +90,18 @@ $invoices = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </div>
+
+<!-- تفعيل النقر على الصف -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll("tr[data-id]").forEach(row => {
+        row.style.cursor = "pointer";
+        row.addEventListener("click", () => {
+            let invoiceID = row.getAttribute("data-id");
+            window.location.href = "invoiceDetails.php?invoiceID=" + invoiceID;
+        });
+    });
+});
+</script>
 
 <?php include('headAndFooter/footer.php'); ?>
